@@ -9,21 +9,21 @@ const DropDown = () => {
       <nav class="nav-menu">
         <ul>
           <li id="services">
-            <a href="#" className="iconbtn">
+            <a href="/" className="iconbtn">
               <IconButton>
                 <ArrowDownwardIcon />
               </IconButton>
             </a>
             <div class="sub-nav">
               <div class="sub-nav-col left">
-                <a href="#" class="sub-nav-box" id="box-1">
+                <a href="/" class="sub-nav-box" id="box-1">
                   <div class="icon-background" id="icon-1">
                     <i class="fab fa-sellsy icon"></i>
                   </div>
                   <h4>Marketing</h4>
                   <p>Dedicated ad platform</p>
                 </a>
-                <a href="#" class="sub-nav-box" id="box-2">
+                <a href="/" class="sub-nav-box" id="box-2">
                   <div class="icon-background" id="icon-2">
                     <i class="fas fa-user-lock icon"></i>
                   </div>
@@ -32,14 +32,14 @@ const DropDown = () => {
                 </a>
               </div>
               <div class="sub-nav-col right">
-                <a href="#" class="sub-nav-box" id="box-6">
+                <a href="/" class="sub-nav-box" id="box-6">
                   <div class="icon-background" id="icon-6">
                     <i class="far fa-calendar-check icon"></i>
                   </div>
                   <h4>Onboarding</h4>
                   <p>Get started quickly</p>
                 </a>
-                <a href="#" class="sub-nav-box" id="box-7">
+                <a href="/" class="sub-nav-box" id="box-7">
                   <div class="icon-background" id="icon-7">
                     <i class="fas fa-briefcase icon"></i>
                   </div>
