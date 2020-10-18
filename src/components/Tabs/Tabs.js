@@ -47,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: "#f1f1f1",
     width: "500",
+    zIndex: "-99",
   },
 }));
 
@@ -78,6 +79,7 @@ export default function FullWidthTabs() {
           variant=""
           aria-label="full width tabs example"
           style={{ margin: "0 auto" }}
+          inkBarStyle={{ background: "blue" }}
         >
           <Tab label="Register" {...a11yProps(0)} />
           <Tab label="Participants" {...a11yProps(1)} />

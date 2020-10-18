@@ -1,0 +1,144 @@
+ul {
+  font-size: 13px;
+  text-align: center;
+  height: 50px;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 28px;
+  padding-bottom: 22px;
+  position: relative;
+}
+
+li > a {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #252222;
+  font-weight: bold;
+}
+
+.sub-nav {
+  background: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  left: -120px;
+  padding: 16px;
+  position: absolute;
+  top: 100%;
+  width: 628px;
+}
+
+.iconbtn a {
+  text-align: center;
+  align-items: center;
+}
+
+#services:hover .sub-nav {
+  display: flex;
+}
+
+.sub-nav-col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 50%;
+}
+
+.left {
+  margin-right: 4px;
+}
+
+.right {
+  margin-left: 4px;
+}
+
+.sub-nav-box {
+  background: #fff;
+  border-radius: 3px;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  font-size: 14px;
+  justify-content: center;
+  margin: 4px 0;
+  min-height: 100px;
+  padding: 24px 14px 24px 96px;
+  position: relative;
+  transition: 0.2s all ease-in-out;
+  text-decoration: none;
+}
+
+.icon-background {
+  height: 64px;
+  width: 64px;
+  background: #252222;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 14px;
+}
+
+.sub-nav-box p {
+  color: #292d34;
+  line-height: 16px;
+}
+
+.sub-nav-box:hover h4,
+.sub-nav-box:hover p {
+  color: #fff;
+  font-weight: bold;
+}
+
+#box-1:hover,
+#icon-1 {
+  background: #7e3ef3;
+}
+
+#box-2:hover,
+#icon-2 {
+  background: #fe4242;
+}
+
+#box-3:hover,
+#icon-3 {
+  background: #2ee1f9;
+}
+
+#box-4:hover,
+#icon-4 {
+  background: #2ef968;
+}
+
+#box-5:hover,
+#icon-5 {
+  background: #ffcf11;
+}
+
+#box-6:hover,
+#icon-6 {
+  background: #86ffc6;
+}
+
+#box-7:hover,
+#icon-7 {
+  background: #ff60b2;
+}
+
+#box-8:hover,
+#icon-8 {
+  background: #5462ff;
+}
+
+.sub-nav {
+  z-index: 99;
+}

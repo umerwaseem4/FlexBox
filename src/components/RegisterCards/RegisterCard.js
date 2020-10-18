@@ -10,10 +10,8 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(3),
-    color: theme.palette.text.secondary,
-    height: "160px",
+    height: "200px",
     width: "330px",
-    backgroundColor: "rgb(246, 246, 246)",
     border: "none",
   },
   titleHeading: {
@@ -38,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#fff",
     cursor: "pointer",
     fontSize: "15px",
+    transform: "Translate(70%,5%)",
   },
   content: {
     backgroundColor: "#fff",
@@ -58,11 +57,12 @@ export default function FullWidthGrid({ cardsData }) {
           {/* CardData comming from Props */}
           {cardsData.map((item) => (
             <Grid className={classes.cards} key={item.id} item xs={12} sm={4}>
-              <Paper className={classes.paper}>
+              <div className={classes.paper}>
                 <h3 className={classes.mainHeading}>{item.title}</h3>
                 <h5 className={classes.subHeading}>{item.desc}</h5>
+                <h5 className={classes.subHeading}>{item.desc2}</h5>
                 <button className={classes.btn}>{item.btn}</button>
-              </Paper>
+              </div>
             </Grid>
           ))}
         </Grid>

@@ -3,8 +3,20 @@ import RegisterCard from "../RegisterCards/RegisterCard";
 
 // Cards data
 const cardsData = [
-  { id: 1, title: "Register", desc: "Max Players", btn: "Register as Player" },
-  { id: 1, title: "Referee", desc: "Pay Type", btn: "Register as Referee" },
+  {
+    id: 1,
+    title: "Register",
+    desc: "Max Players",
+    desc2: "Entry Fees",
+    btn: "Register as Player",
+  },
+  {
+    id: 1,
+    title: "Referee",
+    desc: "Pay Type",
+    desc2: "Pay per match",
+    btn: "Register as Referee",
+  },
   {
     id: 1,
     title: "Volunteer",
